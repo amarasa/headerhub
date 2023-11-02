@@ -19,6 +19,10 @@ A plugin that allows you to switch headers directly from your page
 
 Yes it will. Even new ones, you'll first have to create your header file and it will automatically pull them in.
 
+= Do I need to change anything in the template pages? = 
+
+Yes, you will need to change `get_header()` to `header_hub_get_custom_header()`. You can still pass a specific header as a function parameter.
+
 == Changelog ==
 
 = 1.0 =
