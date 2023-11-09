@@ -25,5 +25,8 @@ Yes, you will need to change `get_header()` to `header_hub_get_custom_header()`.
 
 == Changelog ==
 
+= 2.0 =
+* Added the option to be able to change custom footer as well.
+
 = 1.0 =
 * First production release
