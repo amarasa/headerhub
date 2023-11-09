@@ -15,3 +15,20 @@ function header_hub_get_custom_header($default_header = '')
 
     get_header($default_header);
 }
+
+function footer_hub_get_custom_footer($default_footer = '')
+{
+    global $post;
+
+    $custom_footer = get_post_meta($post->ID, '_custom_footer', true);
+    if ($custom_footer && $custom_footer !== 'default') {
+        if ($custom_footer === 'footer') {
+            get_footer();
+        } else {
+            get_footer($custom_footer);
+        }
+        return;
+    }
+
+    get_footer($default_footer);
+}
