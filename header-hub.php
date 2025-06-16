@@ -3,7 +3,7 @@
 /**
  * Plugin Name: HeaderHub
  * Description: A plugin to easily select custom header templates for each page.
- * Version: 2.0
+ * Version: 2.0.1
  * Author: Angelo Marasa
  */
 
